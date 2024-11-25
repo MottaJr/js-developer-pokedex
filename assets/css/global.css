@@ -1,5 +1,6 @@
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' , sans-serif;
     box-sizing: border-box;
 }
 
@@ -7,18 +8,23 @@ body {
     background-color: #f6f8fc;
 }
 
+/*Por boas práticas, é melhor começar com o css Mobile*/
+
 .content {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: white;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .content {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
+        
 }
+
+
